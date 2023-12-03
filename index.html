@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek-portfolio</title>
+    <!-- <link href="stylesheet.css" rel="stylesheet"/> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+    *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(40deg, #000000,rgba(209, 57, 209, 0.6),#000000);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color:beige;
+    text-decoration: none;
+    font-weight: 600; 
+}
+.navbar a{
+    text-decoration: none;
+    font: weight 500;
+    margin-left: 25px;
+    transition: 2s;
+    color: bisque;
+}
+.navbar a:hover{
+color: rgb(59, 50, 173);
+}
+#about-me{
+    color:#ededed;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding:0 10%;
+    
+}
+.about{
+    max-width: 600px;
+}
+.about,h1{
+    font-weight: 500;
+    font-size: 55px;
+}
+.about,h3{
+    font-weight: 500;
+    font-size: 35px;
+}
+.about,p{
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+#skills {
+    color:#ededed;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    /* background-image:linear-gradient(90deg, #000000, #800080); */
+    padding: 20px 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.skill {
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    color: #272a73;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #0a0909;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0a0909;
+    color: #fff;
+}
+tr:hover {
+    background-color: #007BFF;
+}
+ /* #projects{
+    color:#ededed;
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    padding:0 10%;
+}  */
+.project1{
+    color:#ededed;
+    display:flex;
+    align-items: center;
+    height: 70vh;
+    padding:0 10%;
+}
+.project1,h1{
+    font-weight:200;
+    font-size: 30px;
+}
+.project2{
+    color:#ededed;
+    display:flex;
+    align-items: center;
+    height: 70vh;
+    padding:0 10%;
+}
+.project2,h1{
+    font-weight: 200;
+    font-size: 30px;
+}
+.project3{
+    color:#ededed;
+    display:flex;
+    align-items: center;
+    height: 70vh;
+    padding:0 10%;
+}
+.project3,h1{
+    font-weight: 200;
+    font-size: 30px;
+}
+.project4{
+    color:#ededed;
+    display:flex;
+    align-items: center;
+    height: 70vh;
+    padding:0 10%;
+}
+.project4,h1{
+    font-weight: 200;
+    font-size: 30px;
+}
+img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(153, 122, 122);
+    box-shadow:10px 10px 40px #414c6b;
+}
+
+#contact{
+    color:#ededed;
+    display: grid;
+    align-items: center;
+    height: 10vh;
+    padding:10% 10%;
+}
+#contact,h1{
+    margin-top:5%;
+     font-weight: 200;
+    font-size: 30px;
+}
+footer{
+    padding: 0 10%;
+    display:inline-block;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+footer,a{
+    
+    bottom: 40px;
+    height: 40px;
+    width: 100%;
+    background:transparent;
+    margin-left: 25px;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+       <a href="#" class="logo">AR</a>
+       <nav class="navbar">
+       <a href="#about-me">About Me</a>
+       <a href="#skills">Skills</a>
+       <a href="#projects">Projects</a>
+       <a href="#contact">Contact Me</a>
+       </nav>
+    </header>
+    <section id="about-me">
+          <div class="about">
+            <!-- <h1>About Me</h1> -->
+            <h1>Hi Iam Abhishek Reddy</h1>
+            <h3>Frontend developer</h3>
+            <p>Hello! My name is G.Abhishek, and I'm passionate about Web Development,<br>progaming and exploring new technologies.
+                I was born and raised in hindupur, and I currently reside in tirupati.</p>
+          </div>
+          <img  class="Image"src="Abhi.png"alt="Abhi">
+    </section>
+    <section id="skills">
+      <div class="skill">
+          <h2>Skills</h2>
+          <table>
+              <thead>
+                  <tr>
+                      <th>Skill</th>
+                      <th>Proficiency</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>HTML</td>
+                      <td>Intermediate</td>
+                  </tr>
+                  <tr>
+                      <td>CSS</td>
+                      <td>Intermediate</td>
+                  </tr>
+                  <tr>
+                      <td>Java</td>
+                      <td>Intermediate</td>
+                  </tr>
+                  <tr>
+                      <td>Python</td>
+                      <td>Beginner</td>
+                  </tr>
+                  <tr>
+                      <td>Data Structures & Algorithms</td>
+                      <td>Beginner</td>
+                  </tr>
+                  <tr>
+                      <td>SQL</td>
+                      <td>Intermediate</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </section>
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project1">
+          <h2>Virtual Fitting Rooms For Online shopping</h2>
+          <p>The Semester Exams database is designed to store information 
+            about student exams. The database includes several entities such as Student,
+            Invigilator, Exam, Subject, Department, Exam Room, and Exam Seat. Students are 
+            identified by their unique Student ID and are associated with a Department. Each
+            Department can offer multiple Subjects. Each Exam is associated with a Subject and
+            is held in an Exam Room. Each Exam Room is associated with a Block.</p>
+          <img src="virtual-fit-room.jpg" alt="Project Image">
+        </div>
+        <div class="project2">
+          <h2>SVEC Map-PIN</h2>
+          <p>"SVCE Maps-Pin" is a web-based solution designed to assist 
+            students in locating exam rooms within large college campuses. 
+            By entering their student ID, students gain access to personalized
+            information such as roll numbers, block names, classroom numbers, 
+            and exam instructions, alleviating the stress of finding exam rooms
+            during exam periods. The platform also provides navigational directions
+            from the college's main entrance to the exam room. Implementation involves
+            database setup, web development, user authentication, and stringent security
+            measures. "SVCE Maps-Pin" aims to enhance students' exam experiences, reduce
+            tardiness, and optimize exam time utilization,
+            fostering an efficient and stress-free academic environment.</p>
+          <img src="svec map.jpeg" alt="Project Image">
+        </div>
+        <div class="project3">
+          <h2>Semester Exams Database</h2>
+          <p>The Examination Database Management System for Students is a comprehensive 
+            system designed to effectively manage the examination process. It includes 
+            multiple tables such as dept, block, block_room, student, exam_schedule, exam_material,
+            invigilator, exam_room, st_room, and dep_sub to ensure seamless organization and coordination..</p>
+          <img src="images/project3.jpg" alt="Project Image">
+        </div>
+        <div class="project4">
+            <h2>Design of wardrobe using stacks</h2>
+            <p> This program designs a wardrobe using the concept of stacks in C programming language. 
+                The objective is to allow for easy access to the dresses kept inside the wardrobe, with
+                the dress kept last being the first to be taken out.
+                The implementation of stacks allows for efficient storage and retrieval of the dresses, 
+                ensuring that the wardrobe remains organized and clutter-free. 
+                The program provides a simple and efficient solution for managing a wardrobe, making it an
+                ideal choice for those who value organization and ease of use.
+                </p>
+            <img src="wadrobe2.webp" alt="Project Image">
+          </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#">
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="email" name="email" placeholder="Your Email">
+          <input type="text" name="subject" placeholder="Subject">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <!-- <p>Copyright &copy; Your Name 2023</p> -->
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+      </footer>
+</body>
+</html>
