@@ -5,32 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek-portfolio</title>
     <link href="stylesheet.css" rel="stylesheet"/>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
 </head>
 <body>
-    <header class="header">
-       <a href="#" class="logo">AR</a>
-       <nav class="navbar">
-       <a href="#about-me">About Me</a>
-       <a href="#skills">Skills</a>
-       <a href="#projects">Projects</a>
-       <a href="#contact">Contact Me</a>
-       </nav>
-    </header>
-    <section id="about-me">
-          <div class="about">
-            <!-- <h1>About Me</h1> -->
-            <h1>Hi Iam Abhishek Reddy</h1>
-            <h3>Frontend developer</h3>
-            <p>Hello! My name is G.Abhishek, and I'm passionate about Web Development,<br>progaming and exploring new technologies.
-                I was born and raised in hindupur, and I currently reside in tirupati.</p>
-          </div>
-          <img  class="Image"src="AR.png"alt="Abhi">
+  <div class="main">
+    <section class="navbar">
+        <img class="img1"src="logo.png" alt="">
+        <div class="nav-p2">
+            <a href="#About">About</a>
+            <a href="#Skill">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+            <i class="ri-menu-3-line"></i>
+        </div>
     </section>
-    <section id="skills">
-      <div class="skill">
-          <h2>Skills</h2>
+<!-- ABOUT ME -->
+    <section  id="About" class="about-me">
+          <div class="left">
+              <h1>ABOUT ME :</h1>
+              <p>Hello! My name is <span>G.Abhishek</span>, Studying B-tech 3<sup>rd</sup> year at MBU.I'm passionate about Web Development,progaming and exploring new technologies.I was born and raised in hindupur, and I currently reside in tirupati.</p>
+              <button>Explore now</button>
+          </div>
+          <div class="right">
+            <img  class="img2"src="AR.png"alt="Abhi">
+          </div>
+    </section>
+    <!-- SKILLS -->
+    </section>
+     <section id="Skill"class="Skills">
+        <h2>SKILLS:</h2>
+        <div class="skill">
           <table>
               <thead>
                   <tr>
@@ -67,56 +72,78 @@
           </table>
       </div>
   </section>
-    <section id="projects">
-        <h1>Projects</h1>
-        <div class="project1">
-          <h2>Virtual Fitting Rooms For Online shopping</h2>
-          <p>The Semester Exams database is designed to store information 
-            about student exams. The database includes several entities such as Student,
-            Invigilator, Exam, Subject, Department, Exam Room, and Exam Seat. Students are 
-            identified by their unique Student ID and are associated with a Department. Each
-            Department can offer multiple Subjects. Each Exam is associated with a Subject and
-            is held in an Exam Room. Each Exam Room is associated with a Block.</p>
-          <img src="virtual-fit-room.jpg" alt="Project Image">
+  <section id="Projects">
+    <h1>PROJECTS:</h1>
+      <div class="project1">
+              <div class="tittle1">
+                  <h2><span>Virtual Fitting Rooms For Online shopping :</span></h2>
+                  <p>The Semester Exams database is designed to store information 
+                    about student exams. The database includes several entities such as Student,
+                    Invigilator, Exam, Subject, Department, Exam Room, and Exam Seat. Students are 
+                    identified by their unique Student ID and are associated with a Department. Each
+                    Department can offer multiple Subjects. Each Exam is associated with a Subject and
+                    is held in an Exam Room. Each Exam Room is associated with a Block.</p>
+      </div>
+             <div class="p-img1">
+                  <img src="virtual-fit-room.jpg" alt="Project Image">
+            </div>
         </div>
-        <div class="project2">
-          <h2>SVEC Map-PIN</h2>
-          <p>"SVCE Maps-Pin" is a web-based solution designed to assist 
-            students in locating exam rooms within large college campuses. 
-            By entering their student ID, students gain access to personalized
-            information such as roll numbers, block names, classroom numbers, 
-            and exam instructions, alleviating the stress of finding exam rooms
-            during exam periods. The platform also provides navigational directions
-            from the college's main entrance to the exam room. Implementation involves
-            database setup, web development, user authentication, and stringent security
-            measures. "SVCE Maps-Pin" aims to enhance students' exam experiences, reduce
-            tardiness, and optimize exam time utilization,
-            fostering an efficient and stress-free academic environment.</p>
-          <img src="svec map.jpeg" alt="Project Image">
-        </div>
-        <div class="project3">
-          <h2>Semester Exams Database</h2>
-          <p>The Examination Database Management System for Students is a comprehensive 
-            system designed to effectively manage the examination process. It includes 
-            multiple tables such as dept, block, block_room, student, exam_schedule, exam_material,
-            invigilator, exam_room, st_room, and dep_sub to ensure seamless organization and coordination..</p>
-          <img src="images/project3.jpg" alt="Project Image">
-        </div>
-        <div class="project4">
-            <h2>Design of wardrobe using stacks</h2>
-            <p> This program designs a wardrobe using the concept of stacks in C programming language. 
-                The objective is to allow for easy access to the dresses kept inside the wardrobe, with
-                the dress kept last being the first to be taken out.
-                The implementation of stacks allows for efficient storage and retrieval of the dresses, 
-                ensuring that the wardrobe remains organized and clutter-free. 
-                The program provides a simple and efficient solution for managing a wardrobe, making it an
-                ideal choice for those who value organization and ease of use.
-                </p>
-            <img src="wadrobe2.webp" alt="Project Image">
-          </div>
-    </section>
+ 
+              <div class="project2">
+                  <div class="tittle2">
+                  <h2><span>SVEC Map-PIN :</span></h2>
+                  <p>"SVCE Maps-Pin" is a web-based solution designed to assist 
+                      students in locating exam rooms within large college campuses. 
+                      By entering their student ID, students gain access to personalized
+                      information such as roll numbers, block names, classroom numbers, 
+                      and exam instructions, alleviating the stress of finding exam rooms
+                      during exam periods. The platform also provides navigational directions
+                      from the college's main entrance to the exam room. Implementation involves
+                      database setup, web development, user authentication, and stringent security
+                      measures. "SVCE Maps-Pin" aims to enhance students' exam experiences, reduce
+                      tardiness, and optimize exam time utilization,
+                      fostering an efficient and stress-free academic environment.
+                    </p>
+                  </div>
+             <div class="p-img2">
+              <img src="svec map.jpeg" alt="Project Image">
+            </div>
+              </div>
+        
+              <div class="project3">
+                <div class="tittle3">
+                    <h2><span>Semester Exams Database:</span></h2>
+                    <p>The Examination Database Management System for Students is a comprehensive 
+                        system designed to effectively manage the examination process. It includes 
+                        multiple tables such as dept, block, block_room, student, exam_schedule, exam_material,
+                        invigilator, exam_room, st_room, and dep_sub to ensure seamless organization and coordination..
+                      </p>
+                    </div>
+              <div class="p-img3">
+                    <img src="images/project3.jpg" alt="Project Image">
+              </div>
+              </div>
+              <div class="project4">
+                <div class="tittle4">
+                  <h2><span>Design of wardrobe using stacks:</span></h2>
+                  <p> This program designs a wardrobe using the concept of stacks in C programming language. 
+                      The objective is to allow for easy access to the dresses kept inside the wardrobe, with
+                      the dress kept last being the first to be taken out.
+                      The implementation of stacks allows for efficient storage and retrieval of the dresses, 
+                      ensuring that the wardrobe remains organized and clutter-free. 
+                      The program provides a simple and efficient solution for managing a wardrobe, making it an
+                      ideal choice for those who value organization and ease of use.
+                      </p>
+                    </div>
+              <div class="p-img4">
+                  <img src="wadrobe2.webp" alt="Project Image">
+              </div>
+            </div>
+  </section>
 
-    <section id="contact">
+
+  <section id="Contact">
+    <div class="contact">
         <h2>Contact</h2>
         <form action="#">
           <input type="text" name="name" placeholder="Your Name">
@@ -125,15 +152,18 @@
           <textarea name="message" placeholder="Your Message"></textarea>
           <input type="submit" value="Send">
         </form>
-    </section>
 
     <footer>
-        <!-- <p>Copyright &copy; Your Name 2023</p> -->
-        <a href="#"><i class='bx bxl-linkedin'></i></a>
-        <a href="#"><i class='bx bxl-github'></i></a>
-        <a href="#"><i class='bx bxl-twitter'></i></a>
-        <a href="#"><i class='bx bxl-instagram'></i></a>
-        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <p>Copyright &copy; Abhishek 2023</p>
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="#"><i class="ri-github-line"></i></a>
+        <a href="#"><i class="ri-twitter-line"></i></a>
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-facebook-box-fill"></i></a>
       </footer>
+    </div>
+  </section>
+</div>
+  </body>
 </body>
 </html>
